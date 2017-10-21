@@ -1,0 +1,557 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 10:32:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-20 19:59:00
+*/
+@import url('base.css');
+/* header开始 */
+header{
+   height: 600px;
+   background: yellow;
+   position: relative;
+    margin: 0 auto;
+}
+header img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.hd-zhezhao{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top:0 ;
+}
+.hd-lb{
+	width: 100%;
+	height: 100px;
+	padding: 20px 20%;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+}
+.hd-dg{
+	width: 25%;
+	height: 100%;
+	padding: 0 10%;
+	float: left; 
+}
+.hd-dg a{
+	font-size: 20px;
+	color: #fff;
+}
+.hd-dg a:hover{
+	color: skyblue;
+}
+
+.hd-zibox{
+	width:100%; 
+	position: absolute;
+	bottom: 350px;
+	margin: 0 auto;
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+}
+.hd-begin{
+	width:100%; 
+	height: 60px;
+	position: absolute;
+	bottom: 200px;
+
+}
+.hd-begin a{
+	display: block;
+	width: 200px;
+	height: 60px;
+	background: #fff;
+	margin: 0 auto;
+	font-size: 40px;
+	color: #111;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 5%;
+}
+.hd-begin a:hover{
+	background: skyblue;
+	color:#111;
+}
+.icon-xing{
+	position: absolute;
+	top: 20px;
+	right: 80px;
+	width: 50px;
+	height: 120px;
+	font-size: 100px;
+	color: #fff;
+	font-family:"iconfont";
+	font-style:normal;
+	animation: shan 10s infinite;
+}
+@keyframes shan{
+	0%{
+		color: #fff;
+	}
+	30%{
+		color: rgba(0, 0, 0, 0.0)
+	}
+	60%{
+		color: #fff;
+	}
+	90%{
+		color: rgba(0, 0, 0, 0.0);
+    }
+}
+.icon-star{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 50px;
+	height: 120px;
+	font-size: 80px;
+	color: #fff;
+	font-family:"iconfont";
+	font-style:normal;
+	animation: shan2 15s infinite;
+}
+@keyframes shan2{
+	
+	10%{
+		color: rgba(0, 0, 0, 0.0)
+	}
+	20%{
+		color: #fff;
+	}
+	40%{
+		color: rgba(0, 0, 0, 0.0);
+    }
+
+    60%{
+		color: #ffffff;
+	}
+	80%{
+		color:rgba(0, 0, 0, 0.0);
+	}
+	90%{
+		color: #ffffff;
+	}
+}
+
+/* header结束 */
+
+
+
+/* <!-- abou me开始--> */
+.about-me{
+	padding: 150px 0;
+}
+.am-zi1{
+	font-size: 36px;
+	color: #0d0d0d;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.am-zi2{
+	width: 40%;
+	margin-bottom: 50px;
+	text-align: center;
+	margin: 30px auto;
+	
+}
+
+.am-zi2 i{
+	font-size: 14px;
+    line-height: 22px;
+    color: #55575d;
+    text-align: center;
+    margin-bottom: 10px;
+	font-style: normal;
+}
+.am-xia{
+	height: 369px;
+	margin-top: 10px;
+}
+.about-tu{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.am-zi3{
+	margin-top: 20px;
+}
+
+
+.am-zi3 h2{
+	font-size: 36px;
+	color: #0d0d0d;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #55575d;
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 60px;
+
+}
+
+
+.am-box{
+	height: 300px;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+
+/* <!-- abou me结束 --> */
+/* <!-- our开始 --> */
+.our{
+	height: auto;
+	background: #F3F3F4;
+	padding: 120px  0;
+
+}
+.our-box{
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+.our-list{
+	height: 50%;
+	float: left;
+	padding: 20px;
+}
+.list-dong{
+	width: 95%;
+	height: 100%;
+	background: #fff;
+	padding: 30px;
+	margin: 0 auto;
+	transition: all 0.5s;
+}
+.list-dong:hover{
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+	transform: translateY(-3px);
+}
+.list-box{
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+}
+.icon{
+	font-family:"iconfont" ;
+    font-style:normal;
+	font-size: 32px;
+	color: #111;
+	text-align: center;
+	margin: 0 auto;
+}
+.our-zi1{
+	font-size: 24px;
+	font-weight: 700;
+	color: #0d0d0d;	
+}
+.list-box p{
+	width: 100%;
+	margin: 0 auto;
+}
+.list-box p i{
+	font-style: normal;
+}
+/* <!-- our结束 --> */
+
+/* <!-- prot开始 --> */
+.prot{
+    height: auto;
+	padding: 120px 0;
+}
+.port-lieb{
+	height: 28px;	
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 0 30px 25%;
+}
+.pt-lieb{
+     font-size: 16px;
+     color: #1a1a1a;
+     margin-left: 5%;
+     float: left;
+     overflow: hidden;
+}
+
+.pt-nav1{
+ overflow: hidden;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  margin-bottom: 15px;
+  position: relative;
+  margin-top: 20px;
+}
+.portfolioimg{  
+	position: absolute;
+    left: 0; right: 0 ;top: 0;bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	border-left: 14px solid #fff;
+	border-right:14px solid #fff;
+	color: #fff;
+}
+.pt-nav1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+
+}
+.nav11{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.li1:hover .portfolioimg{   
+   opacity: 1;
+}
+.link{  
+    display: block;  
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:auto;
+	width: 25px;height:25px;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height:25px;
+	left: 0 ;right: 0;top: -60px; bottom: 0;
+	opacity: 0;
+    transition:all 0.8s;
+}
+.link:hover{
+	background: skyblue;
+}
+.link:hover {
+	background: skyblue;
+}
+.link:hover .icon-link:before{ 
+	color: #fff;
+}
+.li1:hover .link{   
+	opacity: 1;transform: scale(2, 2);
+	
+}
+.pt-zi{  
+    display: block;  
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top:auto;
+	font-size: 28px;
+	color: #fff;
+	font-family:STXinwei; 
+	text-align: center;
+	line-height:22px;
+	opacity: 0;
+	left: 0 ;right: 0;top: 60%; bottom: 0;
+    transition:all 0.8s; 
+}
+.li1:hover .pt-zi{   
+	opacity: 1;
+	
+}
+/* <!-- prot结束 --> */
+
+/* cont开始 */
+.cont-bj{
+	height: auto;
+	padding: 120px 69px;
+}
+
+.cont-left{
+	padding: 0 15px;
+}
+.contact-input{
+    width: 100%;
+    height: 44px;
+    border:1px solid #e4e7e9;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size:15px;
+    line-height: 24px;
+    color: #a3a8ab; 
+}
+.contact-input:focus{
+	outline: none;
+}
+.contact-text{
+	 width: 100%;
+    height: 164px;
+    border:1px solid #e4e7e9;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size:15px;
+    line-height: 24px;
+    color: #a3a8ab; 
+    resize: none;
+}
+.contact-text:focus{
+	outline: none;
+}
+.anniu{
+	width: 125px;
+	height: 45px;
+	background: #1a1a1a;
+	border: 1px solid #1a1a1a;
+	border-radius: 2px;
+	font-size: 24px;
+	line-height: 15px;
+	text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 0;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.anniu:focus{
+	outline: none;
+}
+.cont-right{
+    width: 100%;
+	height: auto;
+	padding: 0 15px;
+}
+.icon-box{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.cont-icon-bj{
+	width: 60px;
+	height: 60px;
+	background: #F6F6F6;
+	margin-right: 15px;
+	float: left;
+	padding: 12px 12px;
+}
+.iconfont1{
+    font-family:"iconfont" ;
+    font-style:normal;
+	font-size: 36px;
+	color: #55575d;
+	text-align: center;
+}
+.zijianju1{
+	width: 60%;
+	font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #959595;
+    float: left;
+}
+.zijianju{
+	line-height: 60px;
+}
+
+/* cont结束 */
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 140px;
+	padding: 42px 15px;
+	background:#1a1a1a; 
+	position: relative;
+}
+.ft-left{
+	padding:6px 15px;
+}
+.ft-left p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.fy-lieb{
+	width: 175px;
+	height: 36px;
+	float: right;	
+}
+.ft-dange{
+	width: 36px;
+	height: 36px;
+	background: #86888B;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+	text-align: center;
+	line-height: 36px;
+}
+.ft-dange:last-child{
+	margin-right: 0px;
+}
+.icon2{
+	font-family:"iconfont" ;
+    font-style:normal;
+	font-size: 16px;
+	color: #252525;
+	text-align: center;
+}
+.ft-dange:hover .icon2{
+	color: #fff;
+}
+.ft-dange:hover{
+	background: skyblue;
+}
+.ft-dingwei{
+	width: 52px;
+	height: 52px;
+	background: #1a1a1a;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -26px;
+	left: 0;
+	right:0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 52px;
+}
+.ft-dingwei a{
+	display: block;
+	width: 38px;
+	height: 38px;
+	transform: rotate(-45deg);
+}
+.icon3{
+	font-family:"iconfont" ;
+    font-style:normal;
+	font-size: 36px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+}
+.ft-dingwei:hover .icon3{
+	color: #1a1a1a;
+}
+.ft-dingwei:hover{
+	background: skyblue;
+}
+
+/* footer结束 */
+
+
+/* <!-- prot结束 --> */
+
+
+
+
+
+
